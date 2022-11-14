@@ -72,21 +72,18 @@ section.pergunta >figure>a>img{
 }
 
 
-section.pergunta>iframe{
-    display: none;
-}
 
 section.pergunta:hover >figure>a>img{
-    
     display: block;
     box-shadow: 2px 2px 1px black;
 }
 
 
 
-section.pergunta:hover >iframe{
+section.pergunta >iframe{
     border-radius: 4px;
     display: block;
+    margin: auto;
 }
 
 section.pergunta>figure>a>img:hover {
