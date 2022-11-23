@@ -13,82 +13,101 @@
 </head>
 <body>
     <header>
-        <picture>
-            <source media="(max-width : 800px)" srcset="imagens/lenin-mobile.jfif">
-            <img src="imagens/lenine-capa.jfif" alt="lenin">
-        </picture>
         <h1>Princípios Básicos do Comunismo</h1>
+        
         <a href="https://pt.wikipedia.org/wiki/Friedrich_Engels" target="_blank"><h2>Friedrich Engels</h2></a>
         <h2>Novembro de 1847</h2>
-        <a href="https://pt.wikipedia.org/wiki/Friedrich_Engels" target="_blank"><img src="imagens/engels.png" alt="Engels"></a>
-        
+        <a href="https://pt.wikipedia.org/wiki/Friedrich_Engels" target="_blank"><img src="imagens/engels.png" alt="Engels"></a> 
+        <menu>
+            <li><a href='#' class="botaoMenu" onclick="abrirPergunta('pergunta1')">Pergunta 1</a href='#'></li>
+            <li><a href='#' class="botaoMenu" onclick="abrirPergunta('pergunta2')">Pergunta 2</a href='#'></li>
+            <li><a href='#' class="botaoMenu" onclick="abrirPergunta('pergunta3')">Pergunta 3</a href='#'></li>
+            <li><a href='#' class="botaoMenu" onclick="abrirPergunta('pergunta4')">Pergunta 4</a href='#'></li>
+            <li><a href='#' class="botaoMenu" onclick="abrirPergunta('pergunta5')">Pergunta 5</a href='#'></li>
+            <li><a href='#' class="botaoMenu" onclick="abrirPergunta('pergunta6')">Pergunta 6</a href='#'></li>
+            <li><a href='#' class="botaoMenu" onclick="abrirPergunta('pergunta7')">Pergunta 7</a href='#'></li>
+            <li><a href='#' class="botaoMenu" onclick="abrirPergunta('pergunta8')">Pergunta 8</a href='#'></li>
+            <li><a href='#' class="botaoMenu" onclick="abrirPergunta('pergunta9')">Pergunta 9</a href='#'></li>
+        </menu>
     </header>
     
     
     <main>
         <article>
-            <section class="pergunta">
+            <section class="pergunta" id="pergunta1">
                 <h3>1.ª Pergunta: Que é o comunismo?  </h3>
-                <p>Resposta: O comunismo é a doutrina das condições de libertação do proletariado.</p>
+                <p class="resposta">Resposta: O comunismo é a doutrina das condições de libertação do proletariado.</p>
+                <!--
                 <figure>
                     <a href="http://twitter.com/AcervoComunista/status/1589686373694738433" target="_blank"><img src="imagens/lenine.jfif" alt="lenin e o povo"></a> 
-                </figure>
+                </figure>-->
+                <p class='notas'></p>
             </section>
 
-            <section class="pergunta">
+            <section class="pergunta" id="pergunta2">
                 <h3>2.ª P[ergunta]: Que é o proletariado? </h3>
-                <p>R[esposta]: O proletariado é aquela classe da sociedade que tira o seu sustento única e somente da venda do seu trabalho e não do lucro de qualquer capital; [aquela classe] cujo bem e cujo sofrimento, cuja vida e cuja morte, cuja total existência dependem da procura do trabalho e, portanto, da alternância dos bons e dos maus tempos para o negócio, das flutuações de uma concorrência desenfreada. Numa palavra, o proletariado ou a classe dos proletários é a classe trabalhadora do século XIX.  </p>
-                <iframe width="360" height="215" src="https://www.youtube.com/embed/cg5winGpx80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class='resposta'>R[esposta]: O proletariado é aquela classe da sociedade que tira o seu sustento única e somente da venda do seu trabalho e não do lucro de qualquer capital; [aquela classe] cujo bem e cujo sofrimento, cuja vida e cuja morte, cuja total existência dependem da procura do trabalho e, portanto, da alternância dos bons e dos maus tempos para o negócio, das flutuações de uma concorrência desenfreada. Numa palavra, o proletariado ou a classe dos proletários é a classe trabalhadora do século XIX.</p>
+                <!--
+                <iframe width="360" height="215" src="https://www.youtube.com/embed/cg5winGpx80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                <p class='notas'></p>
             </section>
             
-            <section class="pergunta">
-                <h3>3.ª P[ergunta]: Portanto, nem sempre houve proletários?  </h3>
-                <p>R[esposta]: Não. Classes pobres e trabalhadoras sempre houve; e as classes trabalhadoras eram, na maioria dos casos, pobres. Mas nem sempre houve estes pobres, estes operários vivendo nas condições que acabamos de assinalar, portanto, [nem sempre houve] proletários, do mesmo modo que a concorrência nem sempre foi livre e desenfreada.  </p>
+            <section class="pergunta" id="pergunta3">
+                <h3>3.ª P[ergunta]: Portanto, nem sempre houve proletários?</h3>
+                <p class='resposta'>R[esposta]: Não. Classes pobres e trabalhadoras sempre houve; e as classes trabalhadoras eram, na maioria dos casos, pobres. Mas nem sempre houve estes pobres, estes operários vivendo nas condições que acabamos de assinalar, portanto, [nem sempre houve] proletários, do mesmo modo que a concorrência nem sempre foi livre e desenfreada.</p>
+                
             </section>
 
-            <section class="pergunta">
+            <section class="pergunta"  id="pergunta4">
                 <h3> 4.ª P[ergunta]: Como é que apareceu o proletariado?  </h3>
-                <div><p>O proletariado apareceu com a revolução industrial, que se processou em Inglaterra na segunda metade do século passado e que, desde então, se repetiu em todos os países civilizados do mundo. Esta revolução industrial foi ocasionada pela invenção da máquina a vapor, das várias máquinas de fiar, do tear mecânico e de toda uma série de outros aparelhos mecânicos. Estas máquinas, que eram muito caras e, portanto, só podiam ser adquiridas pelos grandes capitalistas, transformaram todo o modo de produção anterior e suplantaram os antigos operários, na medida em que as máquinas forneciam mercadorias mais baratas e melhores do que as que os operários podiam produzir com as suas rodas de fiar e teares imperfeitos. Estas máquinas colocaram, assim, a indústria totalmente nas mãos dos grandes capitalistas e tornaram a escassa propriedade dos operários (ferramentas, teares, etc.) completamente sem valor, de tal modo que, em breve, os capitalistas tomaram tudo nas suas mãos e os operários ficaram sem nada. Assim se instaurou na confecção de tecidos o sistema fabril. Uma vez dado o impulso para a introdução da maquinaria e do sistema fabril, este sistema foi também muito rapidamente aplicado a todos os restantes ramos da indústria, nomeadamente, à estampagem de tecido e à impressão de livros, à olaria, à indústria metalúrgica. O trabalho foi cada vez mais dividido entre cada um dos operários, de tal modo que o operário que anteriormente fizera toda uma peça de trabalho agora passou a fazer apenas uma parte dessa peça. Esta divisão do trabalho tornou possível que os produtos fossem fornecidos mais depressa e, portanto, mais baratos. Ela reduziu a actividade de cada operário a um gesto mecânico muito simples, repetido mecanicamente a cada instante, o qual podia ser feito por uma máquina não apenas tão bem, mas ainda muito melhor. Deste modo, todos estes ramos da indústria caíram, um após outro, sob o domínio da força do vapor, da maquinaria e do sistema fabril, da mesma maneira que a fiação e a tecelagem.  </p>
-                <p>Mas por este facto elas caíram, ao mesmo tempo, completamente nas mãos dos grandes capitalistas e aos operários foi assim retirado também o último resto de independência. Pouco a pouco, para além da própria manufactura, também o artesanato caiu cada vez mais sob o domínio do sistema fabril, uma vez que, aqui também, os grandes capitalistas suplantaram os pequenos mestres por meio da montagem de grandes oficinas, com as quais muitos custos eram poupados e o trabalho podia igualmente ser dividido. Chegámos assim a que, nos países civilizados, quase todos os ramos de trabalho são explorados segundo o modelo fabril e, em quase todos os ramos de trabalho, o artesanato e a manufactura foram suplantados pela grande indústria.</p>
+                <p class='resposta'>O proletariado apareceu com a revolução industrial, que se processou em Inglaterra na segunda metade do século passado e que, desde então, se repetiu em todos os países civilizados do mundo. Esta revolução industrial foi ocasionada pela invenção da máquina a vapor, das várias máquinas de fiar, do tear mecânico e de toda uma série de outros aparelhos mecânicos. Estas máquinas, que eram muito caras e, portanto, só podiam ser adquiridas pelos grandes capitalistas, transformaram todo o modo de produção anterior e suplantaram os antigos operários, na medida em que as máquinas forneciam mercadorias mais baratas e melhores do que as que os operários podiam produzir com as suas rodas de fiar e teares imperfeitos. Estas máquinas colocaram, assim, a indústria totalmente nas mãos dos grandes capitalistas e tornaram a escassa propriedade dos operários (ferramentas, teares, etc.) completamente sem valor, de tal modo que, em breve, os capitalistas tomaram tudo nas suas mãos e os operários ficaram sem nada. Assim se instaurou na confecção de tecidos o sistema fabril. Uma vez dado o impulso para a introdução da maquinaria e do sistema fabril, este sistema foi também muito rapidamente aplicado a todos os restantes ramos da indústria, nomeadamente, à estampagem de tecido e à impressão de livros, à olaria, à indústria metalúrgica. O trabalho foi cada vez mais dividido entre cada um dos operários, de tal modo que o operário que anteriormente fizera toda uma peça de trabalho agora passou a fazer apenas uma parte dessa peça. Esta divisão do trabalho tornou possível que os produtos fossem fornecidos mais depressa e, portanto, mais baratos. Ela reduziu a actividade de cada operário a um gesto mecânico muito simples, repetido mecanicamente a cada instante, o qual podia ser feito por uma máquina não apenas tão bem, mas ainda muito melhor. Deste modo, todos estes ramos da indústria caíram, um após outro, sob o domínio da força do vapor, da maquinaria e do sistema fabril, da mesma maneira que a fiação e a tecelagem.</p>
+                <p class='resposta'>Mas por este facto elas caíram, ao mesmo tempo, completamente nas mãos dos grandes capitalistas e aos operários foi assim retirado também o último resto de independência. Pouco a pouco, para além da própria manufactura, também o artesanato caiu cada vez mais sob o domínio do sistema fabril, uma vez que, aqui também, os grandes capitalistas suplantaram os pequenos mestres por meio da montagem de grandes oficinas, com as quais muitos custos eram poupados e o trabalho podia igualmente ser dividido. Chegámos assim a que, nos países civilizados, quase todos os ramos de trabalho são explorados segundo o modelo fabril e, em quase todos os ramos de trabalho, o artesanato e a manufactura foram suplantados pela grande indústria.</p>
 
-                <p>Por isso, a antiga classe média, em especial os pequenos mestres artesãos, fica cada vez mais arruinada, a anterior situação dos operários fica completamente transformada e constituem-se duas novas classes, que a pouco e pouco absorvem todas as restantes, a saber: </p>
+                <p class='resposta'>Por isso, a antiga classe média, em especial os pequenos mestres artesãos, fica cada vez mais arruinada, a anterior situação dos operários fica completamente transformada e constituem-se duas novas classes, que a pouco e pouco absorvem todas as restantes, a saber:</p>
 
-                <p>A classe dos grandes capitalistas que, em todos os países civilizados, estão quase exclusivamente na posse de todos os meios de existência e das matérias-primas e dos instrumentos (máquinas, fábricas) necessários para a produção dos meios de existência; Esta é a classe dos burgueses, ou a burguesia.  
-                A classe dos que nada possuem, os quais, em virtude disso, estão obrigados a vender o seu trabalho aos burgueses a fim de obter em troca os meios de existência necessários ao seu sustento. Esta classe chama-se a classe dos proletários, ou o proletariado.  </p></div>
+                <p class='resposta'>A classe dos grandes capitalistas que, em todos os países civilizados, estão quase exclusivamente na posse de todos os meios de existência e das matérias-primas e dos instrumentos (máquinas, fábricas) necessários para a produção dos meios de existência; Esta é a classe dos burgueses, ou a burguesia.  
+                A classe dos que nada possuem, os quais, em virtude disso, estão obrigados a vender o seu trabalho aos burgueses a fim de obter em troca os meios de existência necessários ao seu sustento. Esta classe chama-se a classe dos proletários, ou o proletariado.</p>
                 
-                
+                <p class='notas'></p>
+
             </section>
 
-            <section class="pergunta">
-                <h3>5.ª P[ergunta]: Em que condições tem lugar esta venda do trabalho dos proletários aos burgueses?  </h3>
-                <p>O trabalho é uma mercadoria como qualquer outra, e daí que o seu preço seja determinado precisamente pelas mesmas leis que o de qualquer outra mercadoria. O preço de uma mercadoria, sob o domínio da grande indústria ou da livre concorrência – o que, como veremos, vem a dar ao mesmo -, é, porém, em média, sempre igual aos custos de produção dessa mercadoria. O preço do trabalho é, portanto, também igual aos custos de produção do trabalho. Os custos de produção do trabalho consistem, porém, precisamente, em tantos meios de existência quantos os [que são] necessários para manter os operários em condições de continuar a trabalhar e para não deixar extinguir-se a classe operária. O operário não obterá, portanto, pelo seu trabalho mais do que aquilo que é necessário para esse fim; o preço do trabalho, ou o salário, será, portanto, o mais baixo possível, o mínimo que é necessário para o sustento. Pelo facto de que, porém, os tempos ora são piores, ora são melhores, para o negócio, o operário ora receberá mais, ora receberá menos, tal como o fabricante receberá ora mais, ora menos, pela sua mercadoria. Do mesmo modo, porém, que o fabricante, na média dos tempos bons e dos [tempos] maus para o negócio, não obtém pela sua mercadoria nem mais nem menos do que os seus custos de produção, também o operário, em média, não receberá nem mais nem menos do que aquele mesmo mínimo. Esta lei económica do salário realizar-se-á tanto mais rigorosamente quanto mais a grande indústria se for apoderando de todos os ramos do trabalho.</p>
+            <section class="pergunta" id="pergunta5">
+                <h3>5.ª P[ergunta]: Em que condições tem lugar esta venda do trabalho dos proletários aos burgueses?</h3>
+                <p class='resposta'>O trabalho é uma mercadoria como qualquer outra, e daí que o seu preço seja determinado precisamente pelas mesmas leis que o de qualquer outra mercadoria. O preço de uma mercadoria, sob o domínio da grande indústria ou da livre concorrência – o que, como veremos, vem a dar ao mesmo -, é, porém, em média, sempre igual aos custos de produção dessa mercadoria. O preço do trabalho é, portanto, também igual aos custos de produção do trabalho. Os custos de produção do trabalho consistem, porém, precisamente, em tantos meios de existência quantos os [que são] necessários para manter os operários em condições de continuar a trabalhar e para não deixar extinguir-se a classe operária. O operário não obterá, portanto, pelo seu trabalho mais do que aquilo que é necessário para esse fim; o preço do trabalho, ou o salário, será, portanto, o mais baixo possível, o mínimo que é necessário para o sustento. Pelo facto de que, porém, os tempos ora são piores, ora são melhores, para o negócio, o operário ora receberá mais, ora receberá menos, tal como o fabricante receberá ora mais, ora menos, pela sua mercadoria. Do mesmo modo, porém, que o fabricante, na média dos tempos bons e dos [tempos] maus para o negócio, não obtém pela sua mercadoria nem mais nem menos do que os seus custos de produção, também o operário, em média, não receberá nem mais nem menos do que aquele mesmo mínimo. Esta lei económica do salário realizar-se-á tanto mais rigorosamente quanto mais a grande indústria se for apoderando de todos os ramos do trabalho.</p>
+                <p class='notas'></p>
             </section>
 
-            <section class="pergunta">
+            <section class="pergunta"  id="pergunta6">
                 <h3>6.ª P[ergunta]: Que classes de trabalhadores houve antes da revolução industrial?  </h3>
-                <p>R[esposta]: Consoante as diversas etapas de desenvolvimento da sociedade, assim as classes trabalhadoras viveram em condições diversas e tiveram posições diversas relativamente às classes proprietárias e dominantes. Na Antiguidade, os trabalhadores eram escravos dos proprietários, como ainda o são em muitos países atrasados e, inclusiva mente, na parte sul dos Estados Unidos. Na Idade Média eram servos dos nobres proprietários de terras, como ainda o são na Hungria, na Polónia e na Rússia. Na Idade Média, e até à revolução industrial, houve ainda, além disso, nas cidades, oficiais artesãos que trabalhavam ao serviço de mestres pequeno-burgueses e, a pouco e pouco, com o desenvolvimento da manufactura, apareceram os operários das manufacturas que eram já empregados por grandes capitalistas.  </p>
+                <p class='resposta'>R[esposta]: Consoante as diversas etapas de desenvolvimento da sociedade, assim as classes trabalhadoras viveram em condições diversas e tiveram posições diversas relativamente às classes proprietárias e dominantes. Na Antiguidade, os trabalhadores eram escravos dos proprietários, como ainda o são em muitos países atrasados e, inclusiva mente, na parte sul dos Estados Unidos. Na Idade Média eram servos dos nobres proprietários de terras, como ainda o são na Hungria, na Polónia e na Rússia. Na Idade Média, e até à revolução industrial, houve ainda, além disso, nas cidades, oficiais artesãos que trabalhavam ao serviço de mestres pequeno-burgueses e, a pouco e pouco, com o desenvolvimento da manufactura, apareceram os operários das manufacturas que eram já empregados por grandes capitalistas.</p>
+                <p class='notas'></p>
             </section>
 
-            <section class="pergunta">
+            <section class="pergunta" id="pergunta7">
                 <h3>7.ª P[ergunta]: Como se diferencia o proletário do escravo?</h3>
-                <p>R[esposta]: O escravo está vendido de uma vez para sempre; o proletário tem de se vender a si próprio diariamente e hora a hora. O indivíduo escravo, propriedade de um senhor, tem uma existência assegurada, por muito miserável que seja, em virtude do interesse do senhor; o indivíduo proletário – propriedade, por assim dizer, de toda a classe burguesa -, a quem o trabalho só é comprado quando alguém dele precisa, não tem a existência assegurada. Esta existência está apenas assegurada a toda a classe dos proletários. O escravo está fora da concorrência, o proletário está dentro dela e sente todas as suas flutuações. O escravo vale como uma coisa, não como um membro da sociedade civil; o proletário é reconhecido como pessoa, como membro da sociedade civil. O escravo pode, portanto, levar uma existência melhor do que a do proletário, mas o proletário pertence a uma etapa superior do desenvolvimento da sociedade e está ele próprio numa etapa superior à do escravo. O escravo liberta-se ao abolir, de entre todas as relações de propriedade privada, apenas a relação de escravatura e ao tornar-se, assim, ele próprio proletário; o proletário só pode libertar-se ao abolir a propriedade privada em geral.  </p>
+                <p class='resposta'>R[esposta]: O escravo está vendido de uma vez para sempre; o proletário tem de se vender a si próprio diariamente e hora a hora. O indivíduo escravo, propriedade de um senhor, tem uma existência assegurada, por muito miserável que seja, em virtude do interesse do senhor; o indivíduo proletário – propriedade, por assim dizer, de toda a classe burguesa -, a quem o trabalho só é comprado quando alguém dele precisa, não tem a existência assegurada. Esta existência está apenas assegurada a toda a classe dos proletários. O escravo está fora da concorrência, o proletário está dentro dela e sente todas as suas flutuações. O escravo vale como uma coisa, não como um membro da sociedade civil; o proletário é reconhecido como pessoa, como membro da sociedade civil. O escravo pode, portanto, levar uma existência melhor do que a do proletário, mas o proletário pertence a uma etapa superior do desenvolvimento da sociedade e está ele próprio numa etapa superior à do escravo. O escravo liberta-se ao abolir, de entre todas as relações de propriedade privada, apenas a relação de escravatura e ao tornar-se, assim, ele próprio proletário; o proletário só pode libertar-se ao abolir a propriedade privada em geral.</p>
+                <p class='notas'></p>
             </section>
 
-            <section class="pergunta">
-                <h3>8.ª P[ergunta]: Como se diferencia o proletário do servo? </h3>
-                <p>R[esposta]: O servo tem a posse e o usufruto de um instrumento de produção, de uma porção de terra, contra a entrega de uma parte do produto, ou contra a prestação de trabalho. O proletário trabalha com instrumentos de produção de outrem por conta desse outrem, contra o recebimento de uma parte do produto. O servo entrega, o proletário recebe. O servo tem uma existência assegurada, o proletário não a tem. O servo está fora da concorrência, o proletário está dentro dela. O servo liberta-se fugindo para as cidades e tornando-se aí artesão, ou dando ao seu amo dinheiro, em vez de trabalho e produtos, e tornando-se rendeiro livre, ou expulsando o senhor feudal e tornando-se ele próprio proprietário: em suma, entrando, de uma ou de outra maneira, na classe proprietária e na concorrência. O proletário liberta-se abolindo a concorrência, a propriedade privada e todas as diferenças de classes.</p>
+            <section class="pergunta"  id="pergunta8">
+                <h3>8.ª P[ergunta]: Como se diferencia o proletário do servo?</h3>
+                <p class='resposta'>R[esposta]: O servo tem a posse e o usufruto de um instrumento de produção, de uma porção de terra, contra a entrega de uma parte do produto, ou contra a prestação de trabalho. O proletário trabalha com instrumentos de produção de outrem por conta desse outrem, contra o recebimento de uma parte do produto. O servo entrega, o proletário recebe. O servo tem uma existência assegurada, o proletário não a tem. O servo está fora da concorrência, o proletário está dentro dela. O servo liberta-se fugindo para as cidades e tornando-se aí artesão, ou dando ao seu amo dinheiro, em vez de trabalho e produtos, e tornando-se rendeiro livre, ou expulsando o senhor feudal e tornando-se ele próprio proprietário: em suma, entrando, de uma ou de outra maneira, na classe proprietária e na concorrência. O proletário liberta-se abolindo a concorrência, a propriedade privada e todas as diferenças de classes.</p>
+                <p class='notas'></p>
             </section>
 
-            <section class="pergunta">
-                <h3>10.ª P[ergunta]: Como se diferencia o proletário do operário manufactureiro?  </h3>
-                <p>R[esposta]: O operário manufactureiro dos séculos XVI a XVIII ainda tinha quase sempre na sua posse um instrumento de produção: o seu tear, as rodas de fiar para a família, um pequeno terreno que cultivava nas horas vagas. O proletário não tem nada disso. O operário manufactureiro vive quase sempre no campo e em relações mais ou menos patriarcais com o seu amo ou patrão; o proletário vive, na maioria dos casos, em grandes cidades e está numa pura relação de dinheiro com o seu patrão. O operário manufactureiro é arrancado das suas relações patriarcais pela grande indústria, perde a propriedade que ainda possuía e só então se torna ele próprio proletário. </p>
+            <section class="pergunta" id="pergunta9">
+                <h3>10.ª P[ergunta]: Como se diferencia o proletário do operário manufactureiro?</h3>
+                <p class='resposta'>R[esposta]: O operário manufactureiro dos séculos XVI a XVIII ainda tinha quase sempre na sua posse um instrumento de produção: o seu tear, as rodas de fiar para a família, um pequeno terreno que cultivava nas horas vagas. O proletário não tem nada disso. O operário manufactureiro vive quase sempre no campo e em relações mais ou menos patriarcais com o seu amo ou patrão; o proletário vive, na maioria dos casos, em grandes cidades e está numa pura relação de dinheiro com o seu patrão. O operário manufactureiro é arrancado das suas relações patriarcais pela grande indústria, perde a propriedade que ainda possuía e só então se torna ele próprio proletário.</p>
+                <p class='notas'></p>
             </section>
 
         </article>
     </main>
 
     <footer>
-        <p>Site criado por <a href="https://github.com/mateuswesley-1">Mateus Wesley</a></p>
+        <p class='resposta'>Site criado por <a href="https://github.com/mateuswesley-1">Mateus Wesley</a></p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
