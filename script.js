@@ -14,12 +14,16 @@ function abrirPergunta(idPergunta){
         let linkClasse = document.getElementsByClassName('botaoMenu')
         
         if(j==i){
-            linkClasse[j-1].style.background = 'red'
             elementoPergunta.style.display = 'block'
         }else{
-            linkClasse[j-1].style.background = '#547890'
             elementoPergunta.style.display = 'none'
             
+        }
+
+        if(itens.style.display == 'none'){
+            itens.style.display = 'block'
+        }else{
+            itens.style.display = 'none'
         }
     }
 }
