@@ -1,6 +1,6 @@
 /* Recebe o id da pergunta e usa esse id para pegar a section 
 associada a pergunta e muda o display dela*/
-
+/*
 function abrirPergunta(idPergunta){
 
     // Número da pergunta que queremos que seja exibida
@@ -22,4 +22,23 @@ function abrirPergunta(idPergunta){
             
         }
     }
+}
+*/
+var i=0;
+function cliqueMenu(){
+    /*
+    Parabens pela criatividade mas q bosta kkkkkk
+    if(i%2==0){
+        itens.style.display = 'block'
+    }else{
+        itens.style.display = 'none'
+    }
+    i+=1
+    */
+    if(itens.style.display == 'none'){
+        itens.style.display = 'block'
+    }else{
+        itens.style.display = 'none'
+    }
+
 }

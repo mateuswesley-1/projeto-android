@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 <body>
     <header>
@@ -24,7 +25,12 @@
         </div>
     </header>
 
-    <menu>
+    
+    <span id='icone-menu' class="material-symbols-outlined" onclick="cliqueMenu()">
+        menu
+    </span>
+
+    <menu id="itens">
         <li><a href='#' class="botaoMenu" onclick="abrirPergunta('pergunta1')">Pergunta 1</a href='#'></li>
         <li><a href='#' class="botaoMenu" onclick="abrirPergunta('pergunta2')">Pergunta 2</a href='#'></li>
         <li><a href='#' class="botaoMenu" onclick="abrirPergunta('pergunta3')">Pergunta 3</a href='#'></li>
@@ -113,6 +119,6 @@
     <footer>
         <p class='resposta'>Site criado por <a href="https://github.com/mateuswesley-1">Mateus Wesley</a></p>
     </footer>
-    <script src="script.js"></script>
+   <script src="script.js"></script> 
 </body>
 </html>
