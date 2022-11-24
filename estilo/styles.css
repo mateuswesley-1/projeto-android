@@ -14,19 +14,19 @@ header{
 }
 
 
-header>a{
+header a{
     text-decoration: none;
 }
 
-header>a:visited{
+header a:visited{
     color: black;
 }
 
-header>a:hover{
+header a:hover{
     text-decoration: underline;
 }
 
-header menu{
+menu{
     max-width: 980px;
     height: 100px;
     margin: auto;
