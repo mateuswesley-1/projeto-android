@@ -52,9 +52,11 @@ span#icone-menu:hover{
  }
 
 menu{
-    height: 400px;
+    max-height: 400px;
     list-style-type: none; 
     display: none;
+    margin-bottom: 50px;
+    background-color: #75a8ca;
 }
 
 menu a{
@@ -69,6 +71,12 @@ menu a{
 }
 
 menu a:hover{
+    background-color: #e12c2c;
+    box-shadow: 2px 2px 0px rgba(255, 217, 28, 0.718);
+
+}
+
+menu a:focus-within{
     background-color: #e12c2c;
     box-shadow: 2px 2px 0px rgba(255, 217, 28, 0.718);
 

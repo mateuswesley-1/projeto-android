@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+ 
+
+
+/* A partir de tablet */
+@media screen and (min-width: 768px) {
+    span#icone-menu{
+        display: none;
+    }
+
+    menu {
+        display: block;
+        margin: auto;
+    }
+
+    menu li{
+        display: inline-block;
+        width: 150px;
+        border-radius: 10px;
+    }
+
+    menu li a{
+        border-radius: 10px;
+    }
+}
